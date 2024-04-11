@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bkg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgOnLed"
+        android:layout_width="312dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/led_bulb_on"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgOffLed"
+        android:layout_width="128dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/led_bulb_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/cardLamp"
+        android:layout_width="151dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/card_bkg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iconLamp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:src="@drawable/ic_lamp"
+        app:layout_constraintEnd_toEndOf="@+id/cardLamp"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/cardLamp"
+        app:layout_constraintTop_toTopOf="@+id/cardLamp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchRemoteLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="156dp"
+        android:checked="false"
+        android:text="Off         "
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cardLamp"
+        app:thumbTint="@drawable/switch_thumb"
+        app:trackTint="@drawable/switch_track" />
+
+    <TextView
+        android:id="@+id/txtLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desk lamp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardLamp"
+        app:layout_constraintEnd_toEndOf="@+id/cardLamp"
+        app:layout_constraintStart_toStartOf="@+id/cardLamp"
+        app:layout_constraintTop_toBottomOf="@+id/iconLamp" />
+
+
+    <ImageView
+        android:id="@+id/cardTemp"
+        android:layout_width="151dp"
+        android:layout_height="162dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/card_bkg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/iconTemp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:src="@drawable/icon_climate"
+        app:layout_constraintEnd_toEndOf="@+id/cardTemp"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/cardTemp"
+        app:layout_constraintTop_toTopOf="@+id/cardTemp" />
+
+    <TextView
+        android:id="@+id/txtTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="37 °C"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/iconTemp"
+        app:layout_constraintEnd_toEndOf="@+id/cardTemp"
+        app:layout_constraintStart_toStartOf="@+id/cardTemp"
+        app:layout_constraintTop_toTopOf="@+id/cardTemp" />
+
+    <TextView
+        android:id="@+id/txtClimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Climate"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardTemp"
+        app:layout_constraintEnd_toEndOf="@+id/cardTemp"
+        app:layout_constraintStart_toStartOf="@+id/cardTemp"
+        app:layout_constraintTop_toBottomOf="@+id/iconTemp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
