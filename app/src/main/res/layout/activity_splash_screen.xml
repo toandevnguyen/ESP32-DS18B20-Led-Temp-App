@@ -11,7 +11,7 @@
         android:id="@+id/txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="292dp"
         android:gravity="center"
         android:text="Welcome to SmartHome App!"
         android:textColor="@color/white"

@@ -105,9 +105,10 @@
 
     <TextView
         android:id="@+id/txtTemperature"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
+        android:text="37°C"
         android:layout_height="wrap_content"
-        android:text="37 °C"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/iconTemp"

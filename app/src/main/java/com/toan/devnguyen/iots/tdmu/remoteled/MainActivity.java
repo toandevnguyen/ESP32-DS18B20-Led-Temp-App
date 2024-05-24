@@ -70,10 +70,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void controlLightOnESP32(boolean isOn) {
         String topic = "Đèn";
-        String topic_2 = "sensor/temperature-DS18B20"; //đường dẫn đến topic
+        String topic_2 = "sensor/temperature_DS18B20"; //đường dẫn đến topic
         String content = isOn ? "1" : "0";
         int qos = 0;
-        String broker = "tcp://34.122.33.220";//ip máy ảo VPS mà bạn đã đăng ký trên GG Cloud
+        String broker = "tcp://34.67.245.105";//ip máy ảo VPS mà bạn đã đăng ký trên GG Cloud
 
         String clientId = "Redmi Note 10s"; //ID điện thoại
 
@@ -100,9 +100,9 @@ public class MainActivity extends AppCompatActivity {
                 public void messageArrived(String topic, MqttMessage message) throws Exception {
                     if (topic.equals(topic_2)) {
                         String temperature = new String(message.getPayload());
+                        System.out.println(temperature);
                         temperatureTextView.setText(temperature);
                     }
-
                 }
 
                 @Override
@@ -154,4 +154,3 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-

@@ -42,7 +42,7 @@
         app:trackTint="@drawable/switch_track" />
 
     <TextView
-        android:id="@+id/txtTemperature"
+        android:id="@+id/txtTemperatureCopy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nhiệt độ: 37.52°C"
