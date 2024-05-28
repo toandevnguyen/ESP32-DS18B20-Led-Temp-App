@@ -10,8 +10,8 @@
 
 ## Technologies Used
 - **Hardware**:
-- ESP32-C3
-  ![ESP32-C3](https://i.ebayimg.com/images/g/WkEAAOSw1iZli80j/s-l500.jpg)
+  - ESP32-C3
+    ![ESP32-C3](https://i.ebayimg.com/images/g/WkEAAOSw1iZli80j/s-l500.jpg)
 - DS18B20 sensor,
 - 220V relay module
 - **Software**: Android (Java/Kotlin), MQTT protocol, TCP communication
