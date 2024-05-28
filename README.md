@@ -12,8 +12,12 @@
 - **Hardware**:
   - ESP32-C3
     ![ESP32-C3](https://i.ebayimg.com/images/g/WkEAAOSw1iZli80j/s-l500.jpg)
-- DS18B20 sensor,
-- 220V relay module
+  - DS18B20 Temperature Sensor
+    ![DS18B20](https://i.ebayimg.com/images/g/6sYAAOSwnmxfhlJE/s-l1600.webp)
+  - 1 channel 5V Relay Module
+    ![Relay](https://bizweb.dktcdn.net/100/005/602/files/ad4.jpg?v=1465956650836)
+  - Led Bulb
+    ![Led Bulb](https://kawaled.com/image/catalog/bulb-tru---tron-led2/den-led-tron-led2-a60-9w.jpg)
 - **Software**: Android (Java/Kotlin), MQTT protocol, TCP communication
 
 ## Setup Instructions
