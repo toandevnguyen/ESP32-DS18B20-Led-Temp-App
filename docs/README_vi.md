@@ -42,13 +42,19 @@
        ```
 2. **Cài Đặt VS Code và ESP-IDF Extension**:
    - [Download Visual Studio Code](https://code.visualstudio.com/download)
-   - Làm theo hướng dẫn trong repository [vscode-esp-idf-extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md).
-   - Clone repository: [IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20](https://github.com/toandevnguyen/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20) `git clone https://github.com/toandevnguyen/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20.git` để thiết lập ESP32-C3.
+   - Làm theo hướng dẫn trong repository để cài đặt extension ESP-IDF: [vscode-esp-idf-extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md).
+   - Clone repository sau để thiết lập ESP32-C3: [IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20](https://github.com/toandevnguyen/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20)
+     ```sh
+       git clone https://github.com/toandevnguyen/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20.git
+       ```
    - Mở dự án trong VS Code.
    - Cấu hình cài đặt MQTT broker trong mã nguồn của ứng dụng.
    - Build và nạp code vào module ESP32-C3.
 3. **Cài Đặt Ứng Dụng Di Động**:
-   - Clone repository: [RemoteLights220V-DS18B20](https://github.com/toandevnguyen/RemoteLights220V-DS18B20) `git clone https://github.com/toandevnguyen/RemoteLights220V-DS18B20`
+   - Clone repository: [RemoteLights220V-DS18B20](https://github.com/toandevnguyen/RemoteLights220V-DS18B20)
+   ```sh
+       git clone https://github.com/toandevnguyen/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20.git
+   ```
    - Mở dự án trong Android Studio.
    - Cấu hình cài đặt MQTT broker trong mã nguồn của ứng dụng.
    - Build và chạy ứng dụng trên thiết bị Android.
