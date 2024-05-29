@@ -19,7 +19,7 @@
     ![Relay](https://bizweb.dktcdn.net/100/005/602/files/ad4.jpg?v=1465956650836)
   - Bóng Đèn Led
     ![Led Bulb](https://kawaled.com/image/catalog/bulb-tru---tron-led2/den-led-tron-led2-a60-9w.jpg)
-- **Phần Mềm**: Android (Java/Kotlin), ESP-IDF Visual Studio Code Extension, MQTT Explorer, Giao tiếp TCP
+- **Phần Mềm**: Android (Java/Kotlin), ESP-IDF Visual Studio Code Extension, MQTT Explorer
 
 ## Hướng Dẫn Cài Đặt
 1. **Cài Đặt Backend**:
