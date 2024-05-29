@@ -13,13 +13,21 @@
 ## Technologies Used
 - **Hardware**:
   - ESP32-C3
+
     ![ESP32-C3](https://i.ebayimg.com/images/g/WkEAAOSw1iZli80j/s-l500.jpg)
+    
   - DS18B20 Temperature Sensor
-    ![DS18B20](https://i.ebayimg.com/images/g/6sYAAOSwnmxfhlJE/s-l1600.webp)
+    
+    <img src="https://i.ebayimg.com/images/g/6sYAAOSwnmxfhlJE/s-l1600.webp" alt="ESP32-C3" width="80%"/>
+    
   - 1 channel 5V Relay Module
+    
     ![Relay](https://bizweb.dktcdn.net/100/005/602/files/ad4.jpg?v=1465956650836)
+    
   - Led Bulb
-    ![Led Bulb](https://kawaled.com/image/catalog/bulb-tru---tron-led2/den-led-tron-led2-a60-9w.jpg)
+ 
+    <img src="https://kawaled.com/image/catalog/bulb-tru---tron-led2/den-led-tron-led2-a60-9w.jpg" alt="ESP32-C3" width="70%"/>
+    
 - **Software**: Android (Java/Kotlin), ESP-IDF Visual Studio Code Extension, MQTT Explorer, TCP communication
 
 ## Setup Instructions
@@ -27,7 +35,7 @@
    - Follow the instructions in the [IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20](https://github.com/yourusername/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20) repository for hardware and software setup.
 
 2. **Mobile App Setup**:
-   - Clone the repository: `git clone https://github.com/yourusername/Android-App-IoT-ESP32C3-MQTT-TCP-RemoteLights220V-DS18B20`
+   - Clone the repository: `git clone https://github.com/yourusername/Android-App-IoT-ESP32C3-MQTT-TCP-RemoteLights220V-DS18B20.git`
    - Open the project in Android Studio.
    - Configure MQTT broker settings in the app code.
    - Build and run the app on an Android device.
