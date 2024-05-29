@@ -75,15 +75,15 @@
    <div align="center">
      <figure style="margin-bottom: 20px;">
        <img src="https://github.com/toandevnguyen/RemoteLights220V-DS18B20/blob/main/SplashScreen.jpg" alt="Splash Screen" width="300"/>
-       <figcaption>Splash Screen</figcaption>
+      
      </figure>
      <figure style="margin-bottom: 20px;">
        <img src="https://github.com/toandevnguyen/RemoteLights220V-DS18B20/blob/main/TurnOffLed.jpg" alt="Screen 2" width="300"/>
-       <figcaption>Screen 2: Turn Off LED</figcaption>
+       
      </figure>
      <figure style="margin-bottom: 20px;">
        <img src="https://github.com/toandevnguyen/RemoteLights220V-DS18B20/blob/main/TurnOnLed.jpg" alt="Screen 3" width="300"/>
-       <figcaption>Screen 3: Turn On LED</figcaption>
+       
      </figure>
    </div>
    
