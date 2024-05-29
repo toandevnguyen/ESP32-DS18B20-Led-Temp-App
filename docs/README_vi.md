@@ -10,7 +10,7 @@
 - Giao diện thân thiện với người dùng
 
 ## Công Nghệ Sử Dụng
-- **Hardware**:
+- **Phần cứng**:
   - ESP32-C3
     ![ESP32-C3](https://i.ebayimg.com/images/g/WkEAAOSw1iZli80j/s-l500.jpg)
   - Cảm Biến Nhiệt Độ DS18B20
