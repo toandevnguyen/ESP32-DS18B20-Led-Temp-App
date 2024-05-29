@@ -1,5 +1,6 @@
 # Ứng Dụng Android Điều Khiển Đèn IoT Và Hiển Thị Nhiệt Độ
-
+## Ngôn Ngữ
+- [English](../README.md)
 ## Tổng Quan Dự Án
 - Repository này chứa mã nguồn cho ứng dụng Android tương tác với hệ thống IoT sử dụng vi điều khiển ESP32-C3. Ứng dụng cho phép người dùng điều khiển đèn 220V từ xa và giám sát nhiệt độ bằng cảm biến DS18B20 thông qua MQTT qua TCP.
 - [Liên Kết Video Demo](https://24ffdk-my.sharepoint.com/:v:/g/personal/toan5tb1drivedev_24ffdk_onmicrosoft_com/EdekrNNiyAdAr4RuuM1K9csBAXf8sxO2ubKTF2UoG07UlA?e=lwrZPB) 
