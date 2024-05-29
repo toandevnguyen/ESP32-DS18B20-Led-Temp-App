@@ -23,14 +23,31 @@
 - **Phần Mềm**: Android (Java/Kotlin), ESP-IDF Visual Studio Code Extension, MQTT Explorer
 
 ## Hướng Dẫn Cài Đặt
-1. **Cài Đặt VS Code và ESP-IDF Extension**:
+1. **Thiết lập Mosquitto MQTT Broker trên Google Cloud's Compute Engine**:
+  - Tạo một máy ảo (VM) trên Google Cloud Platform với Ubuntu 20.04 Server.
+  - Kết nối với VM của bạn bằng SSH. [- Kết nối với VM của bạn bằng SSH.] x
+  - Cài đặt Mosquitto MQTT Broker:
+       ```sh
+       sudo apt update
+       sudo apt install -y mosquitto mosquitto-clients
+       ```
+  - Kích hoạt Mosquitto để khởi động cùng hệ thống và khởi động dịch vụ Mosquitto:
+       ```sh
+       sudo systemctl enable mosquitto
+       sudo systemctl start mosquitto
+       ```
+2- Xác minh rằng Mosquitto đang chạy:
+       ```sh
+       sudo systemctl status mosquitto
+       ```
+3. **Cài Đặt VS Code và ESP-IDF Extension**:
    - [Download Visual Studio Code](https://code.visualstudio.com/download)
    - Làm theo hướng dẫn trong repository [vscode-esp-idf-extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md).
-   - Clone repository: `https://github.com/toandevnguyen/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20.git` để thiết lập ESP32-C3.
+   - Clone repository: `git clone https://github.com/toandevnguyen/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20.git` để thiết lập ESP32-C3.
    - Mở dự án trong VS Code.
    - Cấu hình cài đặt MQTT broker trong mã nguồn của ứng dụng.
    - Build và nạp code vào module ESP32-C3.
-2. **Cài Đặt Ứng Dụng Di Động**:
+4. **Cài Đặt Ứng Dụng Di Động**:
    - Clone repository: `git clone https://github.com/yourusername/Android-App-IoT-ESP32C3-MQTT-TCP-RemoteLights220V-DS18B20`
    - Mở dự án trong Android Studio.
    - Cấu hình cài đặt MQTT broker trong mã nguồn của ứng dụng.
@@ -41,8 +58,8 @@
 - Điều khiển đèn 220V và xem dữ liệu nhiệt độ theo thời gian thực.
 
 ## Đóng Góp
-//Hoan nghênh đóng góp! Vui lòng xem [CONTRIBUTING.md](CONTRIBUTING.md) để biết hướng dẫn.
+Hoan nghênh đóng góp! Vui lòng xem [CONTRIBUTING.md](CONTRIBUTING.md) để biết hướng dẫn.
 
 ## Giấy Phép
-//Dự án này được cấp phép theo giấy phép MIT - xem file [LICENSE](LICENSE) để biết chi tiết.
+Dự án này được cấp phép theo giấy phép MIT - xem file [LICENSE](LICENSE) để biết chi tiết.
 
