@@ -24,22 +24,22 @@
 
 ## Hướng Dẫn Cài Đặt
 1. **Thiết lập Mosquitto MQTT Broker trên Google Cloud's Compute Engine**:
-  - Tạo một máy ảo (VM) trên Google Cloud Platform với Ubuntu 20.04 Server.
-  - Kết nối với VM của bạn bằng SSH.
-  - Cài đặt Mosquitto MQTT Broker:
-       ```sh
-       sudo apt update
-       sudo apt install -y mosquitto mosquitto-clients
-       ```
-  - Kích hoạt Mosquitto để khởi động cùng hệ thống và khởi động dịch vụ Mosquitto:
-       ```sh
-       sudo systemctl enable mosquitto
-       sudo systemctl start mosquitto
-       ```
-  - Xác minh rằng Mosquitto đang chạy:
-       ```sh
-       sudo systemctl status mosquitto
-       ```
+   - Tạo một máy ảo (VM) trên Google Cloud Platform với Ubuntu 20.04 Server.
+   - Kết nối với VM của bạn bằng SSH.
+   - Cài đặt Mosquitto MQTT Broker:
+     ```sh
+     sudo apt update
+     sudo apt install -y mosquitto mosquitto-clients
+     ```
+   - Kích hoạt Mosquitto để khởi động cùng hệ thống và khởi động dịch vụ Mosquitto:
+     ```sh
+     sudo systemctl enable mosquitto
+     sudo systemctl start mosquitto
+     ```
+   - Xác minh rằng Mosquitto đang chạy:
+     ```sh
+     sudo systemctl status mosquitto
+     ```
 2. **Cài Đặt VS Code và ESP-IDF Extension**:
    - [Download Visual Studio Code](https://code.visualstudio.com/download)
    - Làm theo hướng dẫn trong repository sau để cài đặt extension ESP-IDF: [vscode-esp-idf-extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md).
