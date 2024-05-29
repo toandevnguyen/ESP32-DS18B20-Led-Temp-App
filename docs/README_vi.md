@@ -41,7 +41,7 @@
      sudo systemctl status mosquitto
      ```
 2. **Sơ đồ hướng dẫn nối mạch điện**:
-    ![Sơ đồ nối dây](https://24ffdk-my.sharepoint.com/:i:/g/personal/toan5tb1drivedev_24ffdk_onmicrosoft_com/EaGDIb0xylhJutdi4dIkl6IBulP1_IcR8KlQ7ALDbiXOqw?e=QLLYpJ)
+    ![Sơ đồ nối dây](https://24ffdk-my.sharepoint.com/:i:/g/personal/toan5tb1drivedev_24ffdk_onmicrosoft_com/EaGDIb0xylhJutdi4dIkl6IBulP1_IcR8KlQ7ALDbiXOqw?e=Eyfj41)
 3. **Cài Đặt VS Code và ESP-IDF Extension**:
    - [Download Visual Studio Code](https://code.visualstudio.com/download)
    - Làm theo hướng dẫn trong repository sau để cài đặt extension ESP-IDF: [vscode-esp-idf-extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md).
