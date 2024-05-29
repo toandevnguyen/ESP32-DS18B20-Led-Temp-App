@@ -13,13 +13,21 @@
 ## Công Nghệ Sử Dụng
 - **Phần cứng**:
   - ESP32-C3
+    
     ![ESP32-C3](https://i.ebayimg.com/images/g/WkEAAOSw1iZli80j/s-l500.jpg)
+    
   - Cảm Biến Nhiệt Độ DS18B20
-    ![DS18B20](https://i.ebayimg.com/images/g/6sYAAOSwnmxfhlJE/s-l1600.webp)
+    
+     <img src="https://i.ebayimg.com/images/g/6sYAAOSwnmxfhlJE/s-l1600.webp" alt="ESP32-C3" width="70%"/>
+        
   - Module Rơ-le 5V 1 kênh
+    
     ![Relay](https://bizweb.dktcdn.net/100/005/602/files/ad4.jpg?v=1465956650836)
+    
   - Bóng Đèn Led
-    ![Led Bulb](https://kawaled.com/image/catalog/bulb-tru---tron-led2/den-led-tron-led2-a60-9w.jpg)
+    
+    <img src="https://kawaled.com/image/catalog/bulb-tru---tron-led2/den-led-tron-led2-a60-9w.jpg" alt="Led Bulb" width="70%"/>
+    
 - **Phần Mềm**: Android (Java/Kotlin), ESP-IDF Visual Studio Code Extension, MQTT Explorer
 
 ## Hướng Dẫn Cài Đặt
@@ -41,6 +49,7 @@
      sudo systemctl status mosquitto
      ```
 2. **Sơ đồ hướng dẫn nối mạch điện**:
+
     ![Sơ đồ nối dây](https://github.com/toandevnguyen/RemoteLights220V-DS18B20/blob/main/S%C6%A1%20%C4%91%E1%BB%93%20n%E1%BB%91i%20d%C3%A2y.png)
 3. **Cài Đặt VS Code và ESP-IDF Extension**:
    - [Download Visual Studio Code](https://code.visualstudio.com/download)
@@ -52,6 +61,7 @@
    - Mở dự án trong VS Code.
    - Cấu hình cài đặt MQTT broker trong mã nguồn của ứng dụng.
    - Build và nạp code vào module ESP32-C3.
+     
 4. **Cài Đặt Ứng Dụng Di Động**:
    - Clone repository: [RemoteLights220V-DS18B20](https://github.com/toandevnguyen/RemoteLights220V-DS18B20)
      ```sh
@@ -60,7 +70,23 @@
    - Mở dự án trong Android Studio.
    - Cấu hình cài đặt MQTT broker trong mã nguồn của ứng dụng.
    - Build và chạy ứng dụng trên thiết bị Android.
-
+   - Here are some screenshots of the app interface:
+   
+   <div align="center">
+     <figure style="margin-bottom: 20px;">
+       <img src="https://github.com/toandevnguyen/RemoteLights220V-DS18B20/blob/main/SplashScreen.jpg" alt="Screen 1" width="300"/>
+       <figcaption>Screen 1: Home Screen</figcaption>
+     </figure>
+     <figure style="margin-bottom: 20px;">
+       <img src="https://github.com/toandevnguyen/RemoteLights220V-DS18B20/blob/main/TurnOffLed.jpg" alt="Screen 2" width="300"/>
+       <figcaption>Screen 2: Control Screen</figcaption>
+     </figure>
+     <figure style="margin-bottom: 20px;">
+       <img src="https://github.com/toandevnguyen/RemoteLights220V-DS18B20/blob/main/TurnOnLed.jpg" alt="Screen 3" width="300"/>
+       <figcaption>Screen 3: Settings Screen</figcaption>
+     </figure>
+   </div>
+   
 ## Sử Dụng
 - Sử dụng ứng dụng để kết nối với hệ thống IoT.
 - Điều khiển đèn 220V và xem dữ liệu nhiệt độ theo thời gian thực.
