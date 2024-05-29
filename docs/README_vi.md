@@ -36,7 +36,7 @@
        sudo systemctl enable mosquitto
        sudo systemctl start mosquitto
        ```
-- Xác minh rằng Mosquitto đang chạy:
+  - Xác minh rằng Mosquitto đang chạy:
        ```sh
        sudo systemctl status mosquitto
        ```
