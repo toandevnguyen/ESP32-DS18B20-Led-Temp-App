@@ -1,4 +1,5 @@
 # Android App for IoT Light Control and Temperature Display
+
 ## Project Overview
 - This repository contains the code for an Android application that interacts with an IoT system using an ESP32-C3 microcontroller. The app allows users to control 220V lights remotely and monitor temperature using a DS18B20 sensor via MQTT over TCP.
 - [Demo Video Link](https://24ffdk-my.sharepoint.com/:v:/g/personal/toan5tb1drivedev_24ffdk_onmicrosoft_com/EdekrNNiyAdAr4RuuM1K9csBAXf8sxO2ubKTF2UoG07UlA?e=lwrZPB) 
@@ -18,7 +19,7 @@
     ![Relay](https://bizweb.dktcdn.net/100/005/602/files/ad4.jpg?v=1465956650836)
   - Led Bulb
     ![Led Bulb](https://kawaled.com/image/catalog/bulb-tru---tron-led2/den-led-tron-led2-a60-9w.jpg)
-- **Software**: Android (Java/Kotlin), MQTT protocol, TCP communication
+- **Software**: Android (Java/Kotlin), ESP-IDF Visual Studio Code Extension, MQTT Explorer, TCP communication
 
 ## Setup Instructions
 1. **Backend Setup**:
@@ -39,3 +40,6 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Languages
+- [Tiếng Việt](docs/README_vi.md)
