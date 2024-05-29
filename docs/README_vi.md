@@ -40,7 +40,9 @@
      ```sh
      sudo systemctl status mosquitto
      ```
-2. **Cài Đặt VS Code và ESP-IDF Extension**:
+2. **Sơ đồ hướng dẫn nối mạch điện**:
+  ![Sơ đồ nối dây](https://24ffdk-my.sharepoint.com/:i:/g/personal/toan5tb1drivedev_24ffdk_onmicrosoft_com/EaGDIb0xylhJutdi4dIkl6IBulP1_IcR8KlQ7ALDbiXOqw?e=QLLYpJ)
+3. **Cài Đặt VS Code và ESP-IDF Extension**:
    - [Download Visual Studio Code](https://code.visualstudio.com/download)
    - Làm theo hướng dẫn trong repository sau để cài đặt extension ESP-IDF: [vscode-esp-idf-extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md).
    - Clone repository sau để thiết lập ESP32-C3: [IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20](https://github.com/toandevnguyen/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20)
@@ -50,7 +52,7 @@
    - Mở dự án trong VS Code.
    - Cấu hình cài đặt MQTT broker trong mã nguồn của ứng dụng.
    - Build và nạp code vào module ESP32-C3.
-3. **Cài Đặt Ứng Dụng Di Động**:
+4. **Cài Đặt Ứng Dụng Di Động**:
    - Clone repository: [RemoteLights220V-DS18B20](https://github.com/toandevnguyen/RemoteLights220V-DS18B20)
      ```sh
      git clone https://github.com/toandevnguyen/RemoteLights220V-DS18B20.git
